@@ -1,0 +1,93 @@
+/* Default code Starts here */
+
+@import url("https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* border: 1px solid red; */
+}
+
+html {
+  font-size: 62.5%;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+
+body {
+  background-image: linear-gradient(to right, #620288, #d32d55);
+
+  font-family: "Rajdhani", sans-serif;
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+:root {
+  --primaryColor: #032c48;
+  --secondaryColor: #ef8bae;
+  --tertiaryColor: #0b81d1;
+  --textDarkColor: #000000;
+  --textLightColor: #efefef;
+  --lightColor: #ffffff;
+  --regularFont: 16px;
+  --headingFont: 54px;
+  --sebHeadingFont: 18px;
+  --paragraph: 16px;
+  --links-Buttons-Font: 16px;
+  --fontFamilyPrimary: "Rajdhani", sans-serif;
+  --fontFamilySecondary: "Merienda", cursive;
+}
+
+.align {
+  max-width: 1200px;
+  margin: auto;
+  padding: 0 3rem;
+}
+
+/* Default code Ends here */
+
+/* :::project code starts here */
+
+.formContainer {
+  background-color: #44c3e4;
+  width: 60%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 150px 20px;
+  margin: 2% 20%;
+}
+.loginForm {
+  background-color: #ffffff;
+  width: 50%;
+  height: auto;
+  padding: 100px 40px;
+}
+
+form h3 {
+  color: #00bfff;
+  font-size: 22px;
+  margin-top: -50px;
+}
+.userName input {
+  margin: 20px 0 5px;
+  padding: 10px;
+  width: 100%;
+}
+.password input {
+  margin: 10px 0 5px;
+  padding: 10px;
+  width: 100%;
+}
+
+.btn button {
+  margin: 10px 0 5px;
+  padding: 10px;
+  width: 100%;
+  background-color: #43c5e7;
+  color: white;
+  border: none;
+  font-weight: bold;
+}
